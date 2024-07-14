@@ -1,8 +1,8 @@
 import styles from "./Button.module.css"
-interface ButtonProps {
+export interface ButtonProps {
   children: React.ReactNode
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void
-  variant: "primary" | "secondary"
+  variant: "button--primary" | "button--secondary"
 }
 
 export default function Button({ children, onClick, variant }: ButtonProps) {
