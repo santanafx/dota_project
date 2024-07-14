@@ -6,6 +6,7 @@ export interface TextProps {
   color?: "black" | "white"
   size?: "small" | "medium" | "large"
   fontWeight?: "normal" | "bold"
+  children?: React.ReactNode
 }
 
 export default function Text({
