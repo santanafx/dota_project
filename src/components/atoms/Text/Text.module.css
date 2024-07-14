@@ -1,0 +1,27 @@
+.small {
+  font-size: 16px;
+}
+
+.medium {
+  font-size: 18px;
+}
+
+.large {
+  font-size: 24px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: --var(--white);
+}
+
+.black {
+  color: --var(--black);
+}
